@@ -1,0 +1,478 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1652641584969203, "dur":720, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641584969930, "dur":28, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1652641584969969, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1652641584969982, "dur":379, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1652641584970384, "dur":514, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641584970898, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585153605, "dur":289, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585153894, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585153909, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585153912, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585153919, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585153922, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585153929, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585153932, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585153938, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585153940, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585153947, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585153948, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585153954, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585153956, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585153962, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585153964, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585153970, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585153972, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585153978, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585153980, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585153985, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585153987, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585153993, "dur":31, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585154025, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585154031, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585154041, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585154055, "dur":1142, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1652641584970387, "dur":515, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641584970904, "dur":3250, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641584974165, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1652641584974170, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641584974898, "dur":538, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1652641584975438, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1652641584975460, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641584975667, "dur":2001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1652641584977669, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1652641584977712, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641584978186, "dur":4879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1652641584983085, "dur":545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test.exe" }}
+,{ "pid":12345, "tid":1, "ts":1652641584983633, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641584983636, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test.exe" }}
+,{ "pid":12345, "tid":1, "ts":1652641584985133, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641584985216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641584985220, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641584986436, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641584986527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641584986532, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641584987849, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641584987943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641584987947, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641584989035, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641584989162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641584989167, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641584990875, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641584990972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641584990977, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641584992458, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641584992644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641584992648, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641584994274, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641584994349, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641584994353, "dur":1665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641584996029, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641584996160, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641584996163, "dur":1875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641584998048, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641584998124, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641584998127, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641584999559, "dur":536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641585000097, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641585000100, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641585002099, "dur":918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641585003021, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641585003025, "dur":2265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641585005305, "dur":3728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641585009039, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641585009046, "dur":4936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641585013994, "dur":139626, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652641584970426, "dur":481, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652641584970907, "dur":3262, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652641584974171, "dur":1022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1652641584975196, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652641584975925, "dur":2152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1652641584978091, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1652641584978121, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652641584978125, "dur":4913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1652641584983055, "dur":18278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1652641585001336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652641585001340, "dur":1925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1652641585003280, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652641585003395, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652641585003398, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652641585005144, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652641585005291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652641585005297, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652641585006165, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652641585006248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652641585006253, "dur":1649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652641585007915, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1652641585007989, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652641585007993, "dur":1492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1652641585009500, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1652641585009582, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652641585009585, "dur":822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1652641585010416, "dur":143191, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641584970461, "dur":452, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641584970913, "dur":3249, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641584974166, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1652641584974266, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641584975977, "dur":7162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1652641584983153, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641584983294, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641584983547, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641584985022, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641584985098, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641584985102, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641584986381, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641584986461, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641584986465, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641584987825, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641584987909, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641584987912, "dur":1063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641584988985, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641584989185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641584989189, "dur":1651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641584990853, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641584990930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641584990934, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641584992430, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641584992584, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641584992588, "dur":1249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641584993847, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641584993930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641584993934, "dur":2048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641584995995, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641584996078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641584996082, "dur":1120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641584997213, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641584997324, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641584997327, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641584999038, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641584999146, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641584999149, "dur":1539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641585000702, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641585000899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641585000904, "dur":1490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641585002406, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641585002566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641585002570, "dur":1975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641585004561, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641585004759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641585004765, "dur":1153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641585005930, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641585006173, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641585006176, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641585008028, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1652641585008045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641585008048, "dur":1853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1652641585009919, "dur":143684, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641584970499, "dur":419, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641584970919, "dur":3240, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641584974166, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1652641584974275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641584976375, "dur":5876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1652641584982265, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1652641584982296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641584982300, "dur":4655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1652641584986971, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641584987044, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641584987047, "dur":1689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641584988750, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641584988851, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641584988855, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641584990333, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641584990420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641584990424, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641584991628, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641584991700, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641584991722, "dur":1859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641584993594, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641584993671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641584993675, "dur":1796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641584995485, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641584995557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641584995561, "dur":1575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641584997148, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641584997223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641584997227, "dur":1547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641584998787, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641584998904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641584998908, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641585000732, "dur":2781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641585003516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641585003520, "dur":4461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641585007995, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1652641585008010, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641585008014, "dur":1892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1652641585009921, "dur":143678, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652641584970530, "dur":392, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652641584970922, "dur":3243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652641584974166, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1652641584974273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652641584976159, "dur":6630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1652641584982803, "dur":85276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652641585068082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652641585068102, "dur":4950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652641585073068, "dur":80543, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641584970550, "dur":376, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641584970926, "dur":3235, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641584974166, "dur":1289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1652641584975457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641584975965, "dur":1908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1652641584977886, "dur":4478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1652641584982366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641584982371, "dur":1494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1652641584983879, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641584983965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641584983969, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641584985363, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641584985466, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641584985470, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641584986785, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641584986876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641584986880, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641584988634, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641584988723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641584988726, "dur":1104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641584989841, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641584989924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641584989928, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641584991403, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641584991472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641584991476, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641584993092, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641584993173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641584993180, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641584994259, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641584994427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641584994431, "dur":2054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641584996497, "dur":975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641584997475, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641584997478, "dur":2770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641585000259, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641585000395, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641585000398, "dur":1629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641585002038, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641585002360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641585002365, "dur":1745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641585004122, "dur":2054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641585006179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641585006183, "dur":3850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641585010056, "dur":143544, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652641584970580, "dur":352, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652641584970932, "dur":3226, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652641584974165, "dur":1306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1652641584975474, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652641584975987, "dur":1967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1652641584977969, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1652641584977998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652641584978034, "dur":5091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1652641584983143, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1652641584983177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652641584983390, "dur":18605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1652641585002012, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652641585002226, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652641585002229, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652641585003652, "dur":2015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652641585005670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652641585005673, "dur":4326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652641585010015, "dur":143590, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652641584970610, "dur":326, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652641584970936, "dur":3235, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652641584974171, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1652641584974349, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652641584976584, "dur":6418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1652641584983018, "dur":153917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652641585136939, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652641585136944, "dur":16608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652641585153571, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1652641585153574, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652641584970693, "dur":256, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652641584970949, "dur":3219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652641584974168, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1652641584974269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652641584975932, "dur":6467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1652641584982412, "dur":9386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641584991801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652641584992117, "dur":1543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641584993679, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641584993751, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652641584993754, "dur":2284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641584996049, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641584996126, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652641584996130, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641584997605, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641584997683, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652641584997686, "dur":1842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641584999542, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641584999922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652641584999927, "dur":1448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641585001391, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641585001486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652641585001491, "dur":1313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641585002814, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641585002958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652641585002961, "dur":1800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641585004779, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641585005057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652641585005062, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641585006509, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1652641585006521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652641585006534, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1652641585007981, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1652641585008054, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652641585008057, "dur":2011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1652641585010079, "dur":143528, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641584970643, "dur":297, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641584970940, "dur":3223, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641584974166, "dur":1602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1652641584975771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641584975991, "dur":2007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1652641584978011, "dur":4709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1652641584982723, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641584982727, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1652641584984094, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641584984213, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641584984216, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641584985439, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641584985513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641584985517, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641584986817, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641584986932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641584986936, "dur":1663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641584988609, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641584988690, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641584988693, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641584989812, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641584989933, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641584989936, "dur":1639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641584991585, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641584991686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641584991690, "dur":1880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641584993584, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641584993667, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641584993671, "dur":1842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641584995524, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641584995616, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641584995620, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641584997181, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641584997271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641584997276, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641584998812, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641584998906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641584998910, "dur":1753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641585000675, "dur":863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641585001541, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641585001544, "dur":2043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641585003596, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641585003972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641585003976, "dur":1667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641585005659, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641585005781, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641585005785, "dur":1752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641585007553, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1652641585007571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641585007576, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1652641585008984, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1652641585009001, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641585009006, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1652641585010223, "dur":143390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641584970669, "dur":276, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641584970945, "dur":3219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641584974165, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1652641584974275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641584975949, "dur":7298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1652641584983268, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641584983348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641584983492, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641584984966, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641584985060, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641584985063, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641584986408, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641584986495, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641584986499, "dur":1556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641584988065, "dur":865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641584988933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641584988937, "dur":2156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641584991104, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641584991187, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641584991190, "dur":1945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641584993148, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641584993348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641584993351, "dur":1695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641584995056, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641584995131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641584995135, "dur":1395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641584996541, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641584996633, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641584996636, "dur":1746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641584998395, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641584998538, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641584998542, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641585000209, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641585000345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641585000349, "dur":1761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641585002121, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641585002290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641585002295, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641585004167, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641585004268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641585004272, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641585005432, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641585005718, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641585005722, "dur":1855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641585007590, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1652641585007602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641585007624, "dur":54207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1652641585061844, "dur":91766, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641584970722, "dur":231, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641584970953, "dur":3214, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641584974167, "dur":1430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1652641584975600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641584976073, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1652641584978038, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1652641584978070, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641584978137, "dur":5339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1652641584983495, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641584983579, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641584983594, "dur":1557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641584985165, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641584985238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641584985242, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641584986640, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641584986712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641584986716, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641584988140, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641584988362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641584988366, "dur":999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641584989375, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641584989448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641584989452, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641584990896, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641584990982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641584990986, "dur":2160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641584993158, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641584993258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641584993263, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641584994832, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641584994901, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641584994904, "dur":1547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641584996463, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641584996537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641584996541, "dur":1830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641584998384, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641584998566, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641584998569, "dur":1865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641585000446, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641585000745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641585000749, "dur":1691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641585002455, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641585002543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641585002548, "dur":1792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641585004354, "dur":1185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641585005561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641585005566, "dur":2100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641585007688, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3D Person Test Win64/3D Person Test_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1652641585007704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641585007707, "dur":4542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3D Person Test Win64/3D Person Test_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1652641585012261, "dur":141350, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641585156154, "dur":1732, "ph":"X", "name": "ProfilerWriteOutput" }
+,
